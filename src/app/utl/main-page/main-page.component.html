@@ -1,0 +1,28 @@
+<h3>Alumnos EVND 1002</h3>
+<hr>
+<div class="row">
+    <div class="col">
+        <app-alumnos [alumnosUtl]="alumnosUtl"></app-alumnos>
+        <h3>Alumnos IEVN 1002</h3>
+        <ul>
+            <LI>Gustavo - 20</LI>
+            <li>Juan Carlos - 22</li>
+            <li>Rosa - 24</li>
+        </ul>
+    </div>
+    <div class="col">
+        <div class="col">
+            <app-agragar [regAlumno]="regAlumno"></app-agragar>
+        </div>
+        <!--
+        <h3>Agregar</h3>
+        <hr>
+        <form (ngSubmit)="agragar()">
+            <input type="text" name="nombre" [value]="regAlumno.nombre" placeholder="Nombre">
+            <input type="number" name="edad" [value]="regAlumno.edad" placeholder="Edad">
+            <button type="submit">Agregar</button>
+        </form>
+    -->
+
+    </div>
+</div>
